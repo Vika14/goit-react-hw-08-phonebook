@@ -1,0 +1,21 @@
+.navigationContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.link {
+  font-size: 24px;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 900;
+  color: azure;
+}
+
+.link:hover,
+.link:focus {
+  color: rgb(112, 83, 83); /* Меняем цвет текста */
+  -webkit-text-shadow: 2px 2px 2px #000;
+  -moz-text-shadow: 2px 2px 2px #000;
+  text-shadow: 2px 2px 2px #ffffff;
+}
